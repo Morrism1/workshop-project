@@ -5,6 +5,13 @@ module.exports = {
     colors: {
       blue: {
         DEFAULT: '#0100CD'
+      },
+      'primary': '#96D2AA',
+      letterSpacing: {
+        widest: '.25em',
+      },
+      fontFamily: {
+        'sans': ['Roboto', 'Arial', 'sans-serif'],
       }
     },
     extend: {},
