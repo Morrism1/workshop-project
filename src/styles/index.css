@@ -4,7 +4,7 @@
 
 @tailwind utilities;
 
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,500;0,700;0,900;1,100&display=swap');
 
 body {
   margin: 0;
@@ -13,6 +13,10 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+}
+
+html {
+  font-family: Roboto, sans-serif;
 }
 
 code {
@@ -48,8 +52,7 @@ code {
   color: white;
 }
 
-h2 p {
-  font-family: Roboto, 'sans-serif';
+h2 {
   font-size: 64px;
   font-weight: 500;
   line-height: 74px;
@@ -57,9 +60,20 @@ h2 p {
 }
 
 nav li {
-  font-family: Roboto, 'sans-serif';
+  font-family: Roboto, sans-serif;
   font-size: 17px;
   font-weight: 400;
   line-height: 20px;
   color: rgb(1, 0, 205);
+}
+
+.page-two-text > p {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 17px;
+  line-height: 29px;
+  letter-spacing: 0.125em;
+  font-feature-settings: 'liga' off;
+  color: #0100cd;
 }
