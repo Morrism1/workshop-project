@@ -1,6 +1,7 @@
 import Navbar from './Navbar';
 import GenericPage from './GenericPage';
 import Button from './Button';
+import { pageTwoH2, pageTwoDownpart } from './PageTwo';
 
 
 function App() {
@@ -10,6 +11,8 @@ function App() {
     <>
       <Navbar />
       <GenericPage header={h2} body={<Button text={'Get in touch'} />} bg={'bg-primary'} />
+      <GenericPage header={pageTwoH2} body={pageTwoDownpart} bg={'bg-white'} />
+
     </>
   );
 }
