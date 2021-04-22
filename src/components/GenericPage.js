@@ -3,7 +3,7 @@ import React from 'react';
 export default function GenericPage({ header, body, bg }) {
   return (
     <div className={bg}>
-      <div className="min-h-screen text-blue relative z-50 relative">
+      <div className="min-h-screen text-blue relative z-50">
         <div className="w-11/12 mx-auto ">
           <div>
             <div className="pt-60">
@@ -13,7 +13,7 @@ export default function GenericPage({ header, body, bg }) {
                     {header}
                   </h2>
                 </div>
-                <div className="w-3/5 text-right  md:text-left  md:w-90 md:mx-auto  mt-16  py-3">
+                <div className="w-1/2 text-left ml-auto mx-12 py-3">
                   {body}
                 </div>
               </div>

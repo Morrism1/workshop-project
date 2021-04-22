@@ -6,6 +6,7 @@ import { pageThreeH2, pageThreeDownpart } from './PageThree';
 import { pageFourH2, pageFourDownContent } from './PageFour';
 import { pageFiveH2, pageFiveDownContent } from './PageFive';
 import { pageSixH2, pageSixDownpart } from './PageSix';
+import { PageSevenH2, PageSevenDownContent } from './PageSeven';
 
 function App() {
   const h2 = (
@@ -59,6 +60,13 @@ function App() {
           header={pageSixH2}
           body={pageSixDownpart}
           bg={'bg-white'}
+        />
+      </div>
+      <div>
+        <GenericPage
+          header={PageSevenH2}
+          body={PageSevenDownContent}
+          bg={'bg-primary'}
         />
       </div>
     </>

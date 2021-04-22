@@ -33,10 +33,9 @@ code {
   box-shadow: 0 5px 8px 0 rgb(0 0 0 / 4%);
   -webkit-box-shadow: none;
   cursor: pointer;
-  font-size: 15px;
+  font-size: 17px;
   justify-content: center;
   outline: none;
-  padding: 0.625em 1.25em;
   text-align: center;
   -moz-appearance: none;
   -webkit-appearance: none;
@@ -46,6 +45,9 @@ code {
   -moz-user-select: none;
   -ms-user-select: none;
   -webkit-box-pack: center;
+  width: 177px;
+  height: 49px;
+  display: inline-block;
 }
 
 .btn:hover {
@@ -86,4 +88,13 @@ nav li {
   letter-spacing: 0.125em;
   font-feature-settings: 'liga' off;
   color: #0100cd;
+}
+
+.logo-height {
+  position: relative;
+  height: 50px;
+}
+
+.logo-height > img {
+  width: 45%;
 }
