@@ -8,6 +8,7 @@ import { pageFiveH2, pageFiveDownContent } from './PageFive';
 import { pageSixH2, pageSixDownpart } from './PageSix';
 import { PageSevenH2, PageSevenDownContent } from './PageSeven';
 import { pageEightH2, pageEightDownContent } from './PageEight';
+import { pageNineH2 } from './PageNine';
 
 function App() {
   const h2 = (
@@ -70,11 +71,18 @@ function App() {
           bg={'bg-primary'}
         />
       </div>
-      <div>
+      <div className="page-three">
         <GenericPage
           header={pageEightH2}
           body={pageEightDownContent}
           bg={'bg-white'}
+        />
+      </div>
+      <div>
+        <GenericPage
+          header={pageNineH2}
+          body={<Button text={'info@betahills.com'} />}
+          bg={'bg-primary'}
         />
       </div>
     </>
