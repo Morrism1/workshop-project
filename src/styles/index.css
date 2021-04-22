@@ -76,7 +76,8 @@ nav li {
   height: 140vh;
 }
 
-.page-two-text > p {
+.page-two-text > p,
+.page-two-text > ul {
   font-family: Roboto;
   font-style: normal;
   font-weight: normal;

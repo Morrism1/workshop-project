@@ -3,6 +3,9 @@ import GenericPage from './GenericPage';
 import Button from './Button';
 import { pageTwoH2, pageTwoDownpart } from './PageTwo';
 import { pageThreeH2, pageThreeDownpart } from './PageThree';
+import { pageFourH2, pageFourDownContent } from './PageFour';
+import { pageFiveH2, pageFiveDownContent } from './PageFive';
+import { pageSixH2, pageSixDownpart } from './PageSix';
 
 function App() {
   const h2 = (
@@ -35,6 +38,27 @@ function App() {
           header={pageThreeH2}
           body={pageThreeDownpart}
           bg={'bg-primary'}
+        />
+      </div>
+      <div>
+        <GenericPage
+          header={pageFourH2}
+          body={pageFourDownContent}
+          bg={'bg-white'}
+        />
+      </div>
+      <div>
+        <GenericPage
+          header={pageFiveH2}
+          body={pageFiveDownContent}
+          bg={'bg-white'}
+        />
+      </div>
+      <div>
+        <GenericPage
+          header={pageSixH2}
+          body={pageSixDownpart}
+          bg={'bg-white'}
         />
       </div>
     </>
