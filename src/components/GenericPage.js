@@ -9,7 +9,7 @@ export default function GenericPage({ header, body, bg }) {
             <div className="pt-60">
               <div>
                 <div>
-                  <h2 className="text-blue w-2/3 md:text-7xl">
+                  <h2 className="text-blue w-3/5">
                     {header}
                   </h2>
                 </div>
