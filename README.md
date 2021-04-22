@@ -17,9 +17,9 @@
 
 To get a local copy of it and run it, follow these simple example steps.
 
-- Git clone [Repo](https://github.com/Morrism1/react-calculator)
+- Git clone [Repo](https://github.com/Morrism1/workshop-project)
 
-- Change the directory by `cd react-calculator`.
+- Change the directory by `cd workshop-project`.
 
 - Git checkout to your favorite branch and create a pull request if you want to add a new feature.
 
