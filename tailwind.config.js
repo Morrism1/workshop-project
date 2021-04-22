@@ -12,7 +12,7 @@ module.exports = {
       },
       fontFamily: {
         'sans': ['Roboto', 'Arial', 'sans-serif'],
-      }
+      },
     },
     extend: {},
   },
